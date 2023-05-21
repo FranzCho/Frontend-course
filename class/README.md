@@ -17,7 +17,7 @@ npm install @apollo/client graphql
 
 yarn add antd
 
-
+npm install @material-ui/core
 ```
 
 </div>
