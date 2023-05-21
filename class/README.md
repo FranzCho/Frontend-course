@@ -1,7 +1,7 @@
 # Frontend Course Class
 
 <details>
-<summary>Initial settings</summary>
+<summary>Initial Settings</summary>
 <div>
 
 ```
