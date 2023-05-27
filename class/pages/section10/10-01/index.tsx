@@ -48,7 +48,13 @@ export default function TypescriptPage() {
   const add2 = (num1: number, num2: number, unit: string):string => {
     return num1 +  num2 + unit
   }
-  const result2 = add(1000,2000, "won") // 결과의 리턴 타입도 예측 가능!!!
+  const result2 = add(1000, 2000, "won") // 결과의 리턴 타입도 예측 가능!!!
+  
+  // any 타입 (자제 바람)
+  let qqq: any = "ronaldo" // 자바스크립트와 동일!
+  qqq = 123
+  qqq = true
+
 
   return (
     <>
