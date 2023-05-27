@@ -1,7 +1,8 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
+import { AppProps } from 'antd'
 
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component } : AppProps) {
 
   const client = new ApolloClient({
     uri: "http://backend-example.codebootcamp.co.kr/graphql",
